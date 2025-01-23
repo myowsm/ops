@@ -9,8 +9,8 @@ This Script has been tested working in
 # Execute the following 
 
 ```
-kubectl apply -f https://github.com/myawsm/ops/blob/main/kubeconfig/svc-deployer.yaml
-bash https://github.com/myawsm/ops/blob/main/kubeconfig/gen-kubeconfig.yaml
+kubectl apply -f https://raw.githubusercontent.com/myowsm/ops/refs/heads/main/kubeconfig/svc-deployer.yaml
+bash https://raw.githubusercontent.com/myowsm/ops/refs/heads/main/kubeconfig/gen-kubeconfig.sh
 ```
 
 - Create a Kubernetes service account named svc-deployer.
